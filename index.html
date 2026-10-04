@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">Crescent Academy</h1>
+    <p align="center">Education for Excellence</p>
+
+    <h2 align="center">ADMISSION FORM</h2>
+
+    <hr>
+
+    <form>
+
+        <h3 align="center">STUDENT INFORMATION</h3>
+
+        <label>Student Name:</label>
+        <input type="text" name="student_name" required>
+        <br><br>
+
+        <label>Father's Name:</label>
+        <input type="text" name="father_name" required>
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="male">
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+
+        <br><br>
+
+        <label>CNIC / B-Form:</label>
+        <input type="text" name="cnic">
+        <br><br>
+
+        <label>Contact Number:</label>
+        <input type="tel" name="phone">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="4" cols="50"></textarea>
+
+        <hr>
+
+        <h3 align="center">ACADEMIC INFORMATION</h3>
+
+        <label>Previous School / College:</label>
+        <input type="text">
+        <br><br>
+
+        <label>Last Qualification:</label>
+        <input type="text">
+        <br><br>
+
+        <label>Class / Program:</label>
+
+        <select>
+            <option>Select Class</option>
+            <option>Grade 9</option>
+            <option>Grade 10</option>
+            <option>First Year</option>
+            <option>Second Year</option>
+        </select>
+
+        <br><br>
+
+        <label>Passing Year:</label>
+        <input type="number">
+        <br><br>
+
+        <hr>
+
+        <h3 align="center">COURSE / SUBJECTS</h3>
+
+        <input type="checkbox" name="subject">
+        <label>English</label>
+
+        <input type="checkbox" name="subject">
+        <label>Mathematics</label>
+
+        <input type="checkbox" name="subject">
+        <label>Computer</label>
+
+        <input type="checkbox" name="subject">
+        <label>Science</label>
+
+      <br><br>
+
+        <input type="submit" value="Submit Form">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
